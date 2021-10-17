@@ -1,0 +1,51 @@
+.feed__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feed__card {
+    display: flex;
+    margin-top: 30px;
+    /* background-color: #E8E8E8; */
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.feed__text {
+        display: flex;
+        align-items: center;
+        justify-content:space-between; 
+        width: 100%;
+        padding: 10px;
+        margin: 25px;
+        margin-right: 50px;
+        /* border: 2px solid black; */
+}
+
+.feed__text__head{
+    width: 420px;
+    font-size:x-large;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Playfair Display', serif;}
+
+.feed__text__para{
+    color: gray;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 60px;
+}
+
+.line{
+    width: 30px;
+    width:40%;
+    text-align:left;
+    margin-left:0;
+    height:2px;
+    background-color: red;
+    border: red;
+}

@@ -1,0 +1,31 @@
+.sidebar__container{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    width: 180px;
+    /* border: 2px solid black; */
+}
+
+.sidebar__container > p{
+    color: gray;
+}
+
+.sidebar__container > h1{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn{
+    border: red;
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    margin-top: 40px;
+}
